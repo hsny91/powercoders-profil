@@ -1,0 +1,159 @@
+  
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+#text-content {
+  margin: 0 auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 600px;
+  font-weight: bold;
+  color: floralwhite;
+  font-size: 1.5em;
+}
+
+.footer {
+  background-color: floralwhite;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+  font-size: 1.2em;
+}
+
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background:rgb(51, 84, 86);
+  color: floralwhite;
+}
+
+.address {
+  font-size: 90%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+
+#navbar {
+  font-size: 1.5em;
+  font-weight: bold;
+  background: none;
+}
+.navbar-dark {
+  background:rgb(51, 84, 86);
+  font-size: 1.5em;
+  
+}
+
+#body{
+  background-image:url('images/bg.jpg')
+
+}
+/**********Project************************/
+#game{
+  margin-top: 2em;
+  text-align:center;
+  border:2px solid #434e52;
+  background-color:rgba(91,140,133,0.7);
+  height: 70px;
+  padding-top:15px;
+}
+
+ul#questionContainer li{
+  border:2px solid #b0a160;
+  background-color:#ecce6d;
+  margin:5px;
+  width: 200px;
+  height: 100px;
+  text-align:center;
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size:22px;
+  cursor: pointer;
+  align-self:flex-start;
+}
+ul#questionContainer li:first-child{
+  border:2px solid #434e52;
+  background-color: #5b8c85;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size:22px;
+  width: 200px;
+}
+#scoreTrue{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,100,0,0.5);
+  border:1px solid rgb(0,100,0);
+  width: 150px;
+  height:30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top:5px;
+  margin:5px;
+  margin-left: 48px;;
+}
+#scoreFalse{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(139,0,0,0.5);
+  border:1px solid rgba(139,0,0);
+  width: 150px;
+  height:30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top:10px;
+  margin-left: 48px;
+}
+.learning-word{
+  background:url('images/alfabe.jpg') no-repeat center fixed;
+  background-size:cover;
+}
+#chooseQuestion {
+  width: 170px;
+  height: 50px;
+  margin-left:45px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;  
+  background-color:#ecce6d;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#questionNumber{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#ecce6d;
+  width: 160px;
+  height:60px;
+  margin-left:48px;
+  padding:5px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.kirmizi{
+  color:red;
+}
+.yesil{
+  color: rgb(0,100,0);
+}

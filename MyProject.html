@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS Files -->
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+</head>
+
+<body class="learning-word">
+    <main>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top" id="navbar">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item "><a class="nav-link" href="./index.html"><span
+                                    class="fa fa-user-secret fa-lg"></span>About Me</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><span
+                                    class="fa fa-cog fa-spin fa-1x fa-fw"></span>My Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Certificates.html"><span
+                                    class="fa fa-certificate fa-lg"></span> My Certificates</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./MySkills.html"><span
+                                    class="fa fa-info fa-lg"></span>My Skills</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header>
+                        <h1 id="game">WORD CARD GAME</h1>
+                    </header>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <section id="learning">
+                        <button id="chooseQuestion">START</button>
+                    </section>
+                </div>
+                <div class="col-12">
+                    <section>
+                        <div id="questionNumber">QUESTION NUMBER</div>
+                        <ul id="questionContainer"></ul>
+                    </section>
+                </div>
+                <div class="col-12">
+                    <section>
+                        <div id="scoreTrue"> True Score:0</div>
+                        <div id="scoreFalse"> False Score:0</div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="function.js"></script>
+    <script src="app.js"></script>
+
+    <!-- jQuery, Popper, Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
